@@ -1,0 +1,19 @@
+# START - Registration Time Info
+dn: CN=[CUS] RegistrationTimeInfoPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: QgcS6jHvG0aUKaTt5TaxGQ==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Registration Time Info
+jenzabar-ICSNET-PortletPath: Portlet.RegistrationTimeInfo,CUS.ICS.RegistrationTimeInfo.RegistrationTimeInfo
+jenzabar-ICSNET-ApplicationPointer: CN=CUS,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CUS] RegistrationTimeInfoPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Registration Time Info
